@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyString
+  featured: false
+  ingredients: MyText
+  steps: MyText
+  submit_date: 2021-04-19 17:41:54
+  image_url: MyString
+  category: one
+  author: one
+  recipe_type: one
+
+two:
+  name: MyString
+  description: MyString
+  featured: false
+  ingredients: MyText
+  steps: MyText
+  submit_date: 2021-04-19 17:41:54
+  image_url: MyString
+  category: two
+  author: two
+  recipe_type: two

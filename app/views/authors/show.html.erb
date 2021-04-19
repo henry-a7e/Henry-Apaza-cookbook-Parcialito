@@ -1,0 +1,32 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Firs name:</strong>
+  <%= @author.firs_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @author.last_name %>
+</p>
+
+<p>
+  <strong>Birthday:</strong>
+  <%= @author.birthday %>
+</p>
+
+<p>
+  <strong>Nacionality:</strong>
+  <%= @author.nacionality %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @author.category_id %>
+</p>
+
+<p>
+  <%= link_to author.recipe.count, recipes_path(:author_id => author.id)%>
+</p>
+<%= link_to 'Edit', edit_author_path(@author) %> |
+<%= link_to 'Back', authors_path %>
